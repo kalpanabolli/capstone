@@ -1,3 +1,6 @@
+Create Database CapstoneDb
+
+Use CapstoneDb
 
 CREATE TABLE AdminInfo (
 	Id int Primary Key identity(1,1),
@@ -22,19 +25,19 @@ CREATE TABLE BlogInfo (
     EmpEmailId VARCHAR(255),
 );
 
-Insert into AdminInfo(EmailId,Password) Values ('Praveen','Tudum2201')
+Insert into AdminInfo(EmailId,Password) Values ('kalpana','kalpana123')
 
 INSERT INTO EmpInfo (EmailId, Name, DateOfJoining, PassCode)
-VALUES ('renu@gmail.com', 'Renu Subramani', '2023-09-23 10:00:00', 12345);
+VALUES ('kalpana@gmail.com', 'kalpana bolli', '2023-08-20 08:00:00', 65432);
 
 INSERT INTO EmpInfo (EmailId, Name, DateOfJoining, PassCode)
-VALUES ('sambosivam@gmail.com', 'Siva M Sambojanam', '2023-09-25 09:45:00', 54321);
+VALUES ('kalpana@gmail.com', 'kalpana', '2023-07-21 09:00:00', 54321);
 
 INSERT INTO BlogInfo ( Title, Subject, DateOfCreation, BlogUrl, EmpEmailId)
-VALUES ('Introduction to SQL', 'Database Management', '2023-09-24 14:30:00', 'https://example.com/sql-intro', 'renu@gmail.com');
+VALUES ('Introduction to SQL', 'Database Management', '2023-09-19 06:00:00', 'https://example.com/sql-intro', 'kalpana11@gmail.com');
 
 INSERT INTO BlogInfo ( Title, Subject, DateOfCreation, BlogUrl, EmpEmailId)
-VALUES ( 'Advanced SQL Techniques', 'Database Optimization', '2023-09-26 16:15:00', 'https://example.com/advanced-sql', 'sambosivam@gmail.com');
+VALUES ( 'Advanced SQL Techniques', 'Database Optimization', '2023-09-15 05:00:00', 'https://example.com/advanced-sql', 'kalpana@gmail.com');
 
 Select * from AdminInfo
 Select * from EmpInfo
